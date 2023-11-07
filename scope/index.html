@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+//scope
+/*
+1. global:toàn cầu
+2. code block:- khối mã let,const
+3. Local scope -Hàm: var, function
+*/
+
+//ex1
+var code ="php"
+dev=()=>
+{
+console.log(code);
+}
+dev()
+
+
+//ex2:Phạm vi global
+programming=()=>
+{
+    console.log("this is the code");
+}
+
+hack=()=>
+{
+    programming()
+}
+hack()
+
+
+//code block cặp ngoặc nhọn
+//ex1
+{
+    //code
+    const age =18
+    console.log(age);    
+}
+//phạm vi hoạt động nằm trong ngoặc nhọn đưa log ra ngoài sẽ k tồn tại
+
+
+//ex2:if-else
+/*
+if (true)
+const age=18
+*/
+
+
+//Local scope:hàm, trong phạm vi có thể log ra được
+//ex1:
+logger=()=>
+{
+    development=()=>
+    {
+        console.log("log2");
+    }   
+    development();
+}
+logger()
+
+
+
+
+
+</script>

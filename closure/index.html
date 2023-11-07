@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+
+//ex1
+dev=()=>
+{
+    let cout=0
+    increase=()=>
+    {
+        return ++cout
+    }
+    return increase
+}
+const code=dev()
+console.log(code());
+console.log(code());
+console.log(code());
+
+
+//ex2
+ad=(ad)=>
+{
+    message=(code)=>
+    {
+        console.log(`[${ad}] ${code}`);
+    }
+    return message
+}
+
+const hack=ad('error')
+hack(' can not start run code')
+hack('next')
+
+
+
+
+
+
+
+
+
+</script>

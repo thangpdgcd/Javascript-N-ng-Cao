@@ -1,0 +1,126 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+background-color: rgba(228, 223, 223, 0.6);    
+}
+
+.main
+{
+    font-family:Verdana, 'Geneva', Tahoma, sans-serif;
+    margin-top: 300px;
+    border:none;
+    box-shadow: rgba(20, 20, 22, 0.2) 0px 7px 29px 0px;
+    width: 450px;
+    height: 620px;
+    margin-left: 40%;
+    border-radius: 10px;
+}
+i
+{
+    color: red;
+}
+.ti-shopping-cart
+{
+    color: black;
+}
+form
+{
+
+    padding: 30px;
+}
+.form-group
+{
+    padding: 20px 0px;
+}
+.heading
+{
+    margin-left: 100px;
+    padding-bottom: 20px;
+}
+.desc
+{
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+#fullname
+{
+    opacity: 0.6;
+    border: 0.5px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 350px;
+    padding: 10px;
+    
+}
+#fullname:hover
+{
+  border-color: rgb(23, 187, 187);
+  transition-delay: 70ms;
+}
+#email
+{
+    border: 0.5px solid;
+    opacity: 0.6;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 350px;
+    padding: 10px;
+
+}
+#email:hover
+{
+    border-color: rgb(23, 187, 187);
+    transition-delay: 70ms;
+}
+#password
+{
+    border: 0.5px solid;
+    opacity: 0.6;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 350px;
+    padding: 10px;
+}
+#password:hover
+{
+    border-color: rgb(23, 187, 187);
+    transition-delay: 70ms;
+}
+#password_confirmation
+{
+    border: 0.5px solid;
+    opacity: 0.6;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 350px;
+    padding: 10px;
+}
+#password_confirmation:hover
+{
+    border-color: rgb(23, 187, 187);
+    transition-delay:750ms;
+}
+.form-submit
+{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 10px;
+    width: 350px;
+    background-color: rgb(21, 199, 199);
+}
+.form-submit:hover{
+    background-color: aqua;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition-delay: 100ms;
+}
